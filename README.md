@@ -48,7 +48,7 @@ python classif.py --J 3 --feature scattering --C 1e-3 --mode 1 --classifier 'svm
 
 #### NTU/SBU
 
-Move the dataset (available <a href="#">here</a>) in the same folder as the main file, then `$DATASET=NTU_xview_values/NTU_xsub_values/SBU`,
+Move the dataset (available <a href="https://github.com/mazariahmed06/graph_skeletons">https://github.com/mazariahmed06/graph_skeletons</a>) in the same folder as the main file, then `$DATASET=NTU_xview_values/NTU_xsub_values/SBU`,
 `$PATH_TO_MODEL` refers to the path in which the first script stores the weight of the model, `$ORDER` is the required order and 
 `$K` the respective number of filters, which should end by 0 (e.g., `$ORDER=1` leads to `$K=30,0` for instance).
 
